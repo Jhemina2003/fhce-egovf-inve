@@ -1,0 +1,25 @@
+package com.fhce.inv.obj;
+
+
+import java.time.LocalDate;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class redResponseDTO {
+	private Long idRed;
+    private String ip;
+    private String segmento;
+    private String dns;
+    private String vlan;
+    private String switchRed;
+    private String puerto;
+    private Long idEquipo;
+    private String codigoEquipo;
+    private LocalDate fechaRegistro;
+    private int estado;
+}
